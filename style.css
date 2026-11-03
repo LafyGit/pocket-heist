@@ -1,0 +1,15 @@
+:root { --paper: #F4ECDD; --ink: #1B3339; --soft: #4F6468; --red: #C8553D; --rule: #E2D6BC; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 "DM Sans", system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+h1, h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; line-height: 1.15; }
+h1 { font-size: 40px; margin: 16px 0 4px; }
+h1 .dot { color: var(--red); }
+h2 { font-size: 22px; margin: 32px 0 8px; }
+p, li { color: var(--soft); }
+a { color: var(--ink); }
+.top { display: flex; align-items: center; gap: 14px; }
+.top img { width: 56px; height: 56px; border-radius: 13px; }
+.top a { text-decoration: none; font-family: "Fraunces", Georgia, serif; font-style: italic; font-size: 24px; }
+.muted { font-size: 14px; }
+nav { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 15px; display: flex; gap: 20px; }
