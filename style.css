@@ -12,4 +12,9 @@ a { color: var(--ink); }
 .top img { width: 56px; height: 56px; border-radius: 13px; }
 .top a { text-decoration: none; font-family: "Fraunces", Georgia, serif; font-style: italic; font-size: 24px; }
 .muted { font-size: 14px; }
-nav { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 15px; display: flex; gap: 20px; }
+nav { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 15px; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.store { display: inline-block; margin: 8px 0; padding: 12px 22px; border-radius: 999px; background: var(--red); color: var(--paper); font-weight: 500; text-decoration: none; }
+.store:hover, .store:focus-visible { background: var(--ink); }
+.hero { display: block; width: 100%; height: auto; margin: 24px 0 8px; border-radius: 14px; }
+.contracts li { margin-bottom: 6px; }
+.contracts b { color: var(--ink); font-weight: 500; }
